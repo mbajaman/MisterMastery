@@ -1,0 +1,36 @@
+{
+  "name": "apichallenge",
+  "version": "1.0.0",
+  "description": "A web based software submission for Riot Games API Challenge 2017",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbajaman/MisterMastery.git"
+  },
+  "keywords": [
+    "riotgames",
+    "api",
+    "apichallenge",
+    "nodejs",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Mohammed Bajaman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbajaman/MisterMastery/issues"
+  },
+  "homepage": "https://github.com/mbajaman/MisterMastery#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jquery": "^3.2.1",
+    "webpack": "^3.10.0"
+  }
+}
