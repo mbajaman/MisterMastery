@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mbajaman/MisterMastery.git"
+    "url": "git+https://github.com/mbajaman/RuneForge.git"
   },
   "keywords": [
     "riotgames",
@@ -23,9 +23,9 @@
   "author": "Mohammed Bajaman",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mbajaman/MisterMastery/issues"
+    "url": "https://github.com/mbajaman/RuneForge/issues"
   },
-  "homepage": "https://github.com/mbajaman/MisterMastery#readme",
+  "homepage": "https://github.com/mbajaman/RuneForge#readme",
   "dependencies": {
     "axios": "^0.17.1",
     "body-parser": "^1.18.2",

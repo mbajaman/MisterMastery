@@ -1,6 +1,7 @@
 $(document).ready(function(){
-    console.log("JQuery works!");
     document.getElementById("summBut").addEventListener("click", function(){
+        
+        //Call to return summoner information
         $.ajax({
            url:"/summoner",
             type:"post",
@@ -8,13 +9,9 @@ $(document).ready(function(){
                 sname: document.getElementById("sname").value,
             },
             success: function(resp){
-                console.log(resp);
+                console.log(resp); //Remove console.log
                 location.href="/"+resp.name;
             }
         });
-//        $.get("/test").then(function(resp){
-//            console.log(resp);
-//        });
-    })
-    
+    });
 });
